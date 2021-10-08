@@ -6,17 +6,18 @@
 .background {
     display: flex;
     justify-content: center;
+    background-color: grey;
     height: 100vh;
 }
 
 .mainDisplay {
-    width: calc(60% - 100px);
-    height: 400px;
-    background-color: rgba(102, 102, 102, 0.39);
-    margin: 90px;
+    width: calc(40% - 100px);
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.801);
+    margin: 100px;
     display: flex;
     justify-items: center;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .input {
@@ -30,6 +31,10 @@
     margin: 15px;
     outline: none;
     border: none;
+}
+
+button {
+    height: 20px;
 }
 
 #locationInput {
