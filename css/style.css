@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainDisplay {
+    width: calc(60% - 100px);
+    height: 400px;
+    background-color: rgba(102, 102, 102, 0.39);
+    margin: 90px;
+    display: flex;
+    justify-items: center;
+    border-radius: 20px;
+}
+
+.input {
+    display: flex;
+    justify-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input > * {
+    margin: 15px;
+    outline: none;
+    border: none;
+}
+
+#locationInput {
+    height: 20px;
+}
