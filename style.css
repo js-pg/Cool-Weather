@@ -95,7 +95,22 @@ h2 {
 .descriptions {
     display: flex;
     text-align: left;
-    float: left;
     margin-top: 10px;
+
+}
+
+.wind {
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+#windDescript {
+    font-weight: 300;
 
 }

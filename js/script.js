@@ -33,6 +33,7 @@ let main = {
         document.getElementById('status').innerText = description;
         document.getElementById('icon').src = "http://openweathermap.org/img/wn/" + icon + ".png"
         document.getElementById('cityText').innerText = name;
+        document.getElementById('windDescript').innerText = speed + 'mph'
         setBackground(name, 'city')
 
     },
