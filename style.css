@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    image-rendering: crisp-edges;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    background-size: cover;
+}
+
+.mainDisplay {
+    width: calc(20% + 200px);
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.904);
+    margin: 100px;
+    justify-items: center;
+    border-radius: 30px;
+    top: 50%;
+}
+
+.input {
+    display: flex;
+    justify-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.input > * {
+    margin: 15px;
+    outline: none;
+    border: none;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    background-color: rgba(150, 139, 139, 0.253);
+    color: rgb(207, 207, 207);
+    transition: .15s ease-in-out;
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(204, 204, 204, 0.253);
+    transform: translateY(-1px);
+}
+
+#locationInput {
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 12.5px;
+    background-color: rgba(150, 139, 139, 0.253);
+    color: white;
+    width: calc(100% - 10px);
+}
+
+h3 {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    color: white;
+    margin-top: 15px;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.stats {
+    margin-left: 18px;
+}
+
+#status {
+    color: white;
+    font-weight: 300;
+    vertical-align: middle;
+    padding-top: 17px;
+}
+
+.descriptions {
+    display: flex;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+
+}
