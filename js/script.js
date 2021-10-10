@@ -39,3 +39,10 @@ let main = {
 
 
 };
+
+window.onkeypress = function(event) {
+    if (event.keyCode == 13) {
+       main.fetchWeather(document.getElementById('locationInput').value)
+    }
+
+ }
